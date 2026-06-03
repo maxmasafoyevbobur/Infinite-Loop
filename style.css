@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,25 +46,35 @@ header {
     font-weight: 700;
 }
 
+.header-lii a {
+    text-decoration: none;
+    color: rgb(171, 168, 168);
+}
+
 .header-div-1 {
     text-align: center;
     margin-top: 12%;
     color: #FFFFFF;
 }
 
-.header-div-1 h1{
+.header-li a:hover {
+    color: rgb(171, 168, 168);
+    transform: 0.3s;
+}
+
+.header-div-1 h1 {
     font-size: 42px;
     font-weight: 300;
     margin-bottom: 15px;
 }
 
-.header-div-1 h6{
+.header-div-1 h6 {
     font-size: 14px;
     color: rgb(204, 201, 201);
     margin-bottom: 10px;
 }
 
-.header-div-1 p{
+.header-div-1 p {
     color: rgb(204, 201, 201);
     font-weight: 300;
     margin-bottom: 165px;
