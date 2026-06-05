@@ -269,3 +269,30 @@ header {
     object-fit: cover;
     display: block;
 }
+
+#footer {
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-image: url(./images/infinite-loop-03.jpg);
+}
+
+.footer-div {
+    text-align: center;
+    padding-top: 8%;
+}
+
+.footer-div h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.footer-div p{
+    color: rgb(201, 199, 199);
+    font-size: 16px;
+    font-weight: 100;
+}
