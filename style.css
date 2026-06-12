@@ -291,9 +291,37 @@ header {
     margin-bottom: 20px;
 }
 
-.footer-div p{
+.footer-div p {
     color: rgb(201, 199, 199);
     font-size: 16px;
     font-weight: 100;
 }
 
+.form1 input,
+.form2 input,
+.form3 textarea {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-radius: 4px;
+    width: 20%;
+    height: 30px;
+}
+
+.form1 input::placeholder,
+.form2 input::placeholder,
+.form3 textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-button button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(131, 131, 244);
+    border: 5px solid rgb(131, 131, 244);
+    color: white;
+}
+
+.form3 textarea, label{
+    height: 300px;
+}
